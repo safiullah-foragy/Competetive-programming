@@ -1,0 +1,1 @@
+{"name":"Local: maximize","url":"e:\\codeforce\\to be pushed\\maximize.cpp","tests":[{"id":1715537736806,"input":"7\n10\n7\n21\n100\n2\n1000\n6","output":"5\n6\n18\n98\n1\n750\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\codeforce\\to be pushed\\maximize.cpp","group":"local","local":true}

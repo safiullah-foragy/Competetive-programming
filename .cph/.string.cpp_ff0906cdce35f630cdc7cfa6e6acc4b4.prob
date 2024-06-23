@@ -1,0 +1,1 @@
+{"name":"Local: string","url":"e:\\codeforce\\to be pushed\\string.cpp","tests":[{"id":1716218279409,"input":"5\n10\nserofedsoc\n3\nttf\n9\ntlrhgmaoi\n1\nw\n15\nhnndledmnhlttin","output":"codeforces\nfft\nalgorithm\nw\nmeetinthemiddle"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\codeforce\\to be pushed\\string.cpp","group":"local","local":true}
