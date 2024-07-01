@@ -1,0 +1,1 @@
+{"name":"Local: Aleksa_stack","url":"d:\\Competetive-programming\\Aleksa_stack.cpp","tests":[{"id":1719677724992,"input":"3\n3\n6\n7\n","output":"6 8 12\n7 11 14 20 22 100\n9 15 18 27 36 90 120"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Competetive-programming\\Aleksa_stack.cpp","group":"local","local":true}
