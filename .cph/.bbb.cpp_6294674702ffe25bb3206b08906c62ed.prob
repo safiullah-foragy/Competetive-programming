@@ -1,0 +1,1 @@
+{"name":"Local: bbb","url":"d:\\Competetive-programming\\bbb.cpp","tests":[{"id":1719998401600,"input":"3\n4 2\nabcd\n1234\nac\n4 4\nabcd\n1234\nabec\n5 3\nabcba\n24513\nacb\n","output":"4\n-1\n8\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Competetive-programming\\bbb.cpp","group":"local","local":true}
