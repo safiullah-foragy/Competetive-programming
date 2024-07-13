@@ -6,13 +6,19 @@ void solve()
 
  {
 
-int n=10;
-for(int i=0;i<n;i++)
+int a,b,c;
+cin>>a>>b>>c;
+
+for(int i=0;i<5;i++)
 {
-cout<<"gdghd"<<endl;
+if(a<=b&&a<=c){a++;}
+else if(b<=a&&b<=c){b++;}
+else{c++;}
+
 }
 
 
+cout<<a*b*c<<endl;
 
 
 }
