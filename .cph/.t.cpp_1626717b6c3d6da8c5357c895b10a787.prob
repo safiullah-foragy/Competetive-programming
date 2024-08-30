@@ -1,0 +1,1 @@
+{"name":"Local: t","url":"/run/media/sofi/Study/Competetive-programming/t.cpp","tests":[{"id":1724597416534,"input":"4\n2\naa\n3\naba\n4\nabcb\n12\nabcabcabcabc\n","output":"No\nnO\nYes\nYES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/run/media/sofi/Study/Competetive-programming/t.cpp","group":"local","local":true}

@@ -16,6 +16,7 @@ int main()
 
         string s, s1, s2;
         cin >> s >> s1 >> s2;
+        for(int)
 
         map<char, int> mp;
         for (int i = 0; i < n; i++) {
@@ -29,6 +30,8 @@ int main()
                 mp[s[i]] = s1_value;
             }
         }
+    int sum=0;
+
 
        
         for (auto &p : mp) {

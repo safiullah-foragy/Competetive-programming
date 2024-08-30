@@ -1,0 +1,1 @@
+{"name":"Local: Neural","url":"d:\\Competetive-programming\\Neural.cpp","tests":[{"id":1725009437446,"input":"4\n3 5 2 7\n","output":"39\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Competetive-programming\\Neural.cpp","group":"local","local":true}

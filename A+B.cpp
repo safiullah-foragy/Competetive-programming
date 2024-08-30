@@ -6,20 +6,10 @@ void solve()
 
  {
 
-int a,b,c;
-cin>>a>>b>>c;
-
-for(int i=0;i<5;i++)
-{
-if(a<=b&&a<=c){a++;}
-else if(b<=a&&b<=c){b++;}
-else{c++;}
-
-}
-
-
-cout<<a*b*c<<endl;
-
+int n;
+cin>>n;
+int sum=n%10+(n/10);
+cout<<sum<<endl;
 
 }
    
@@ -37,4 +27,3 @@ int main() {
     
     return 0;
 }
-c

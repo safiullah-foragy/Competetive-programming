@@ -1,35 +1,29 @@
-
 #include <bits/stdc++.h>
 using namespace std;
 
-void solve()
+void solve() {
+    int n,k;
+    cin >>n>>k; 
+    
+    vector<int> v(k);
+   int max=-1;
+   for(auto &i:v)
+   {
+   cin>>i;
+   if(max<i){max=i;}
 
- {
-
-int a,b,c;
-cin>>a>>b>>c;
-
-for(int i=0;i<5;i++)
-{
-if(a<=b&&a<=c){a++;}
-else if(b<=a&&b<=c){b++;}
-else{c++;}
-
-}
-
-
-cout<<a*b*c<<endl;
-
-
-}
+   }
    
+   cout<<2*(n-max)-k+1<<endl;
+   
+}
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     
     int t;
-    cin >> t;
+    cin >> t; 
     
     while (t--) {
         solve();
@@ -37,4 +31,3 @@ int main() {
     
     return 0;
 }
-c

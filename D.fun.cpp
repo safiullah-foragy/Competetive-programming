@@ -6,20 +6,22 @@ void solve()
 
  {
 
-int a,b,c;
-cin>>a>>b>>c;
-
-for(int i=0;i<5;i++)
+int x,n;
+cin>>n>>x;
+int sum=0;
+for(int i=1;i<=n;i++)
 {
-if(a<=b&&a<=c){a++;}
-else if(b<=a&&b<=c){b++;}
-else{c++;}
-
+    
+    for(int j=1;j<=n;j++)
+    {
+    for(int k=1;k<=n;k++)
+    {
+        if((i*j+j*k+k*i)<=n&&(i+j+k<=x)){sum++;}
+    }
+    }
+    
 }
-
-
-cout<<a*b*c<<endl;
-
+cout<<sum<<endl;
 
 }
    
@@ -37,4 +39,3 @@ int main() {
     
     return 0;
 }
-c

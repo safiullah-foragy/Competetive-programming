@@ -6,20 +6,13 @@ void solve()
 
  {
 
-int a,b,c;
-cin>>a>>b>>c;
+int n,m,k;
+cin>>n>>m>>k;
+int remain=(n/m);
+if(n%m>0){remain+=1;}
 
-for(int i=0;i<5;i++)
-{
-if(a<=b&&a<=c){a++;}
-else if(b<=a&&b<=c){b++;}
-else{c++;}
-
-}
-
-
-cout<<a*b*c<<endl;
-
+if(n-remain>k){cout<<"YES"<<endl;}
+else cout<<"NO"<<endl;
 
 }
    
@@ -37,4 +30,3 @@ int main() {
     
     return 0;
 }
-c

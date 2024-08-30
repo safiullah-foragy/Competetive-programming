@@ -6,20 +6,11 @@ void solve()
 
  {
 
-int a,b,c;
-cin>>a>>b>>c;
-
-for(int i=0;i<5;i++)
-{
-if(a<=b&&a<=c){a++;}
-else if(b<=a&&b<=c){b++;}
-else{c++;}
-
-}
-
-
-cout<<a*b*c<<endl;
-
+int n, k;
+        cin >> n >> k;
+        k = min(k, 30);
+        int p= pow(2, k) - 1;
+        cout << min(n, p) + 1 << "\n";
 
 }
    
@@ -37,4 +28,3 @@ int main() {
     
     return 0;
 }
-c

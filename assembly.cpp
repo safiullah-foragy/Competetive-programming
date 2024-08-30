@@ -6,20 +6,17 @@ void solve()
 
  {
 
-int a,b,c;
-cin>>a>>b>>c;
-
-for(int i=0;i<5;i++)
-{
-if(a<=b&&a<=c){a++;}
-else if(b<=a&&b<=c){b++;}
-else{c++;}
-
-}
-
-
-cout<<a*b*c<<endl;
-
+int n;
+		cin>>n;
+		int S=1000;
+		cout<<S<<" ";
+		for(int i=2;i<=n;i++){
+			int x;
+			cin>>x;
+			S+=x;
+			cout<<S<<" ";
+		}
+		cout<<"\n";
 
 }
    
@@ -37,4 +34,3 @@ int main() {
     
     return 0;
 }
-c

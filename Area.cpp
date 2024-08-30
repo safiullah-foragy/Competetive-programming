@@ -6,20 +6,10 @@ void solve()
 
  {
 
-int a,b,c;
-cin>>a>>b>>c;
-
-for(int i=0;i<5;i++)
-{
-if(a<=b&&a<=c){a++;}
-else if(b<=a&&b<=c){b++;}
-else{c++;}
-
-}
-
-
-cout<<a*b*c<<endl;
-
+int n;
+cin>>n;
+int a=1,b=n;
+cout<<a<<" "<<b<<endl;
 
 }
    
@@ -28,8 +18,8 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     
-    int t;
-    cin >> t;
+    int t=1;
+   // cin >> t;
     
     while (t--) {
         solve();
@@ -37,4 +27,3 @@ int main() {
     
     return 0;
 }
-c

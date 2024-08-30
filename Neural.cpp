@@ -5,21 +5,20 @@ using namespace std;
 void solve()
 
  {
-
-int a,b,c;
-cin>>a>>b>>c;
-
-for(int i=0;i<5;i++)
+int n;
+cin>>n;
+vector<int>v(n);
+for(auto &i:v)
 {
-if(a<=b&&a<=c){a++;}
-else if(b<=a&&b<=c){b++;}
-else{c++;}
-
+cin>>i;
+}
+int sum=0;
+for(int i=0;i<n-1;i++)
+{
+sum+=v[i]*v[i+1];
 }
 
-
-cout<<a*b*c<<endl;
-
+cout<<sum<<endl;
 
 }
    
@@ -28,8 +27,8 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     
-    int t;
-    cin >> t;
+    int t=1;
+    // cin >> t;
     
     while (t--) {
         solve();
@@ -37,4 +36,3 @@ int main() {
     
     return 0;
 }
-c
