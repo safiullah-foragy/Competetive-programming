@@ -1,0 +1,1 @@
+{"name":"Local: Newone","url":"d:\\Competetive-programming\\Newone.cpp","tests":[{"id":1731387528500,"input":"4\n5 3\nBBWBW\n5 5\nBBWBW\n5 1\nBBWBW\n1 1\nW\n","output":"1\n2\n0\n1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Competetive-programming\\Newone.cpp","group":"local","local":true}
